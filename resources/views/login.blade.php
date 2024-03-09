@@ -18,7 +18,7 @@
                         </div>
                         <div class="mb-2">
                             <label for="" class="form-label">Email</label>
-                            <input name="email" type="email" class="form-control">
+                            <input name="email" type="text" class="form-control">
                         </div> <div class="mb-2">
                             <label for="" class="form-label">Password</label>
                             <input name="password" type="text" class="form-control">
