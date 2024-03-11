@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
-
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,3 +21,8 @@ Route::get('/', function () {
 
 Route::get('/login',[LoginController::class, 'index'])->name('login');
 Route::post('/login',[LoginController::class,'handleLogin'])->name('login.submit');
+
+Route::get('/home',[HomeController::class]);
+
+
+
